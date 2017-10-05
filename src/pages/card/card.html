@@ -1,0 +1,8 @@
+
+<ion-content>
+<swiper [config]="config">
+        <div class="swiper-wrapper" *ngFor = 'let image of appData'>
+            <div class="swiper-slide" [ngStyle]="{ 'background-image': 'url(' + image.url + ')'}" ></div>
+            </div>
+        </swiper>
+</ion-content>
