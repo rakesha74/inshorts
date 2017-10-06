@@ -14,16 +14,34 @@ ion-content{
     width:100%;
 }
 
-.swiper-slide{
     
-    height:100vh;
-    background-repeat: space;
+  .swiper-slide {
+    
+    text-align:center;
+    z-index: 1;
     background-size:100% 100vh;
-
-    
-
-}
-
-    
-
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+    display: block;
+    height:100vh;
+    left:0;
+    top: 0;
+  }
+  .content {
+    color:blue;
+    font-size:30px;
+    font-weight:bold;
+    position:relative;
+    position:absolute;
+    z-index:9999;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(13px);
+    filter: blur(0px);
+  }
+  
 
