@@ -5,12 +5,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 import { Push } from '@ionic-native/push';
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/touch/touch';
+//import { HomePage } from '../pages/touch/touch';
 //import { BasicPage } from '../pages/slides/pages';
 import { SwiperModule } from 'angular2-useful-swiper'; 
-import {CardPage} from '../pages/card/card';
+//import {CardPage} from '../pages/card/card';
 //import {CoverflowPage} from '../pages/coverflow/coverflow';
 //import {PagePiling} from '../pages/pagepiling/pagepiling';
+import {InshortsPage} from '../pages/inshorts/inshorts';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import {CardPage} from '../pages/card/card';
     //CoverflowPage
     //PagePiling
     //HomePage
-    CardPage
+    //CardPage
+    InshortsPage
   ],
   imports: [
     BrowserModule,
@@ -33,7 +35,8 @@ import {CardPage} from '../pages/card/card';
     //HomePage
     //CoverflowPage
     //PagePiling
-    CardPage
+    //CardPage
+    InshortsPage
   ],
   providers: [
     StatusBar,

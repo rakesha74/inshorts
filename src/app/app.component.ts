@@ -3,11 +3,12 @@ import { Platform, AlertController } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { Push, PushObject, PushOptions } from '@ionic-native/push';
-import { HomePage } from '../pages/touch/touch';
+//import { HomePage } from '../pages/touch/touch';
 //import { BasicPage } from '../pages/slides/pages'
 //import {CoverflowPage} from '../pages/coverflow/coverflow';
 //import {PagePiling} from '../pages/pagepiling/pagepiling';
-import {CardPage} from '../pages/card/card';
+//import {CardPage} from '../pages/card/card';
+import {InshortsPage} from '../pages/inshorts/inshorts';
 
 @Component({
   templateUrl: 'app.html'
@@ -16,7 +17,7 @@ export class MyApp {
   //rootPage:any = HomePage;
   //rootPage:any=CoverflowPage;
   //rootPage:any=PagePiling;
-  rootPage:any = CardPage;
+  rootPage:any = InshortsPage;
   constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen, public push: Push, public alertCtrl: AlertController) {
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.

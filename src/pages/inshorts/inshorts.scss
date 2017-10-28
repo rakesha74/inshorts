@@ -1,0 +1,73 @@
+page-inshorts {
+
+    .card{
+        margin:0;
+    }
+
+    
+
+    .tag{
+        float: left;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 1000;
+        background-color: #ffffff;
+        padding: 5px;
+        color: #000000;
+        font-weight: bold;
+        opacity: 0.2;
+        width:100%;
+    }
+
+    img{
+        height:40vh;
+    }
+
+    .card-title{
+        border-bottom:2px solid #000000; 
+        width:100%;
+    }
+
+    .card-title p{
+        margin:0; 
+        padding:5px;
+        font-size:1em;
+        font-weight:bold;
+        margin-left:0.75em;
+    }
+
+    .card-content{
+        height:37vh; 
+        width:100%;
+        border-bottom:2px solid #000000; 
+    }
+
+    .card-content p{
+        font-size:1em;
+        font-weight:bold;
+    }
+
+    .boxes{
+        width:100%;
+        height:10vh;
+    }
+
+    .box{
+        text-align:center;
+        line-height:0.5;
+        float:left;
+        width:50%;
+        padding:0;
+        margin:0;
+    }
+
+    .share{
+        margin-top:10px;
+    }
+
+    .refresh{
+        margin-top:10px;
+    }
+    
+}
